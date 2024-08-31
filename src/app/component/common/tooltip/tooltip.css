@@ -1,0 +1,16 @@
+.tooltip-wrapper {
+  display: inline-block;
+  z-index: 1000;
+}
+
+.react-tooltip {
+  max-width: none;
+  white-space: nowrap;
+  z-index: 1000;
+}
+.custom-tooltip {
+  /* Customize tooltip styling as needed */
+  font-size: 14px;
+  max-width: 300px; /* Example: Limit the width of the tooltip */
+  white-space: wrap;
+}

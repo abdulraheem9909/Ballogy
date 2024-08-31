@@ -1,0 +1,46 @@
+.is-typing {
+  margin-top: 10px;
+  width: 50px;
+  justify-content: space-around;
+  display: flex;
+}
+
+.jump1,
+.jump2,
+.jump3 {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.jump1 {
+  animation: typing 4s infinite;
+  animation-delay: 0s;
+}
+
+.jump2 {
+  animation: typing 4s infinite;
+  animation-delay: 0.2s;
+}
+
+.jump3 {
+  animation: typing 4s infinite;
+  animation-delay: 0.4s;
+}
+
+@keyframes typing {
+  0% {
+    transform: translateY(0px);
+    background-color: gray;
+  }
+  33% {
+    transform: translateY(10px);
+  }
+  66% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
